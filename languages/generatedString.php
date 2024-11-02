@@ -2442,6 +2442,10 @@ $bit_integrations_i18n_strings = array(
 
     'Share Settings' => __('Share Settings', 'bit-integrations'),
 
+    'Client id...' => __('Client id...', 'bit-integrations'),
+
+    'Client secret...' => __('Client secret...', 'bit-integrations'),
+
     'Spreadsheet refreshed' => __('Spreadsheet refreshed', 'bit-integrations'),
 
     'Spreadsheet refresh failed Cause: %s. please try again' => __('Spreadsheet refresh failed Cause: %s. please try again', 'bit-integrations'),
@@ -2457,6 +2461,8 @@ $bit_integrations_i18n_strings = array(
     'No Worksheet headers found. Try changing the header row number or try again' => __('No Worksheet headers found. Try changing the header row number or try again', 'bit-integrations'),
 
     'Worksheet Headers refresh failed. please try again' => __('Worksheet Headers refresh failed. please try again', 'bit-integrations'),
+
+    'This account is already on the list.' => __('This account is already on the list.', 'bit-integrations'),
 
     'Spreadsheets:' => __('Spreadsheets:', 'bit-integrations'),
 

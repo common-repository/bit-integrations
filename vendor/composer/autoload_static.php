@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2d9ebf2868f20374ad15498211ace604
+class ComposerStaticInit7a84f1063f0d9284312284bc40ca9cae
 {
     public static $prefixLengthsPsr4 = array (
         'T' => 
@@ -342,6 +342,7 @@ class ComposerStaticInit2d9ebf2868f20374ad15498211ace604
         'BitCode\\FI\\Admin\\AdminAjax' => __DIR__ . '/../..' . '/includes/Admin/AdminAjax.php',
         'BitCode\\FI\\Admin\\Admin_Bar' => __DIR__ . '/../..' . '/includes/Admin/Admin_Bar.php',
         'BitCode\\FI\\Config' => __DIR__ . '/../..' . '/includes/Config.php',
+        'BitCode\\FI\\Core\\Database\\AuthModel' => __DIR__ . '/../..' . '/includes/Core/Database/AuthModel.php',
         'BitCode\\FI\\Core\\Database\\DB' => __DIR__ . '/../..' . '/includes/Core/Database/DB.php',
         'BitCode\\FI\\Core\\Database\\FlowModel' => __DIR__ . '/../..' . '/includes/Core/Database/FlowModel.php',
         'BitCode\\FI\\Core\\Database\\LogModel' => __DIR__ . '/../..' . '/includes/Core/Database/LogModel.php',
@@ -386,7 +387,9 @@ class ComposerStaticInit2d9ebf2868f20374ad15498211ace604
         'BitCode\\FI\\Triggers\\WC\\WCHelper' => __DIR__ . '/../..' . '/includes/Triggers/WC/WCHelper.php',
         'BitCode\\FI\\Triggers\\WC\\WCStaticFields' => __DIR__ . '/../..' . '/includes/Triggers/WC/WCStaticFields.php',
         'BitCode\\FI\\Triggers\\WPF\\WPFController' => __DIR__ . '/../..' . '/includes/Triggers/WPF/WPFController.php',
+        'BitCode\\FI\\controller\\AuthDataController' => __DIR__ . '/../..' . '/includes/controller/AuthDataController.php',
         'BitCode\\FI\\controller\\BtcbiAnalyticsController' => __DIR__ . '/../..' . '/includes/controller/BtcbiAnalyticsController.php',
+        'BitCode\\FI\\controller\\OneClickCredentialController' => __DIR__ . '/../..' . '/includes/controller/OneClickCredentialController.php',
         'BitCode\\FI\\controller\\PostController' => __DIR__ . '/../..' . '/includes/controller/PostController.php',
         'BitCode\\FI\\controller\\UserController' => __DIR__ . '/../..' . '/includes/controller/UserController.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
@@ -415,9 +418,9 @@ class ComposerStaticInit2d9ebf2868f20374ad15498211ace604
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2d9ebf2868f20374ad15498211ace604::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2d9ebf2868f20374ad15498211ace604::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2d9ebf2868f20374ad15498211ace604::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7a84f1063f0d9284312284bc40ca9cae::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7a84f1063f0d9284312284bc40ca9cae::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7a84f1063f0d9284312284bc40ca9cae::$classMap;
 
         }, null, ClassLoader::class);
     }
